@@ -23,7 +23,7 @@ object WebCam {
     imageMode: ImageMode = ImageMode.COLOR
   )(implicit system: ActorSystem): Source[Frame, NotUsed] = {
     val props = Props(
-      new WebcamFramePublisher(
+      new WebCamFramePublisher(
         deviceId = deviceId,
         imageWidth = dimensions.width,
         imageHeight = dimensions.height,
@@ -31,10 +31,10 @@ object WebCam {
         imageMode = imageMode
       )
     )
-    val webcamActorRef = system.actorOf(props)
-    val webcamActorPublisher = ActorPublisher[Frame](webcamActorRef)
+    val webCamActorRef = system.actorOf(props)
+    val webCamActorPublisher = ActorPublisher[Frame](webCamActorRef)
 
-    Source.fromPublisher(webcamActorPublisher)
+    Source.fromPublisher(webCamActorPublisher)
   }
 
   // Building a started grabber seems finicky if not synchronised; there may be some freaky stuff happening somewhere.
@@ -58,7 +58,7 @@ object WebCam {
   /**
    * Actor that backs the Akka Stream source
    */
-  private class WebcamFramePublisher(
+  private class WebCamFramePublisher(
       deviceId: Int,
       imageWidth: Int,
       imageHeight: Int,
