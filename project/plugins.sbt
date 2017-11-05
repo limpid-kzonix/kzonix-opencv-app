@@ -8,7 +8,5 @@ classpathTypes += "maven-plugin"
 
 // javacpp `Loader` is used to determine `platform` classifier in the project`s `build.sbt`
 // We define dependency here (in folder `project`) since it is used by the build itself.
-libraryDependencies += "org.bytedeco" % "javacpp" % "1.3.2"
-
-addSbtPlugin("org.scalariform" % "sbt-scalariform" % "1.6.0")
-
+libraryDependencies += "org.bytedeco" % "sbt-javacpp" % "1.11"
+addSbtPlugin("org.bytedeco" % "sbt-javacpp" % "1.11")

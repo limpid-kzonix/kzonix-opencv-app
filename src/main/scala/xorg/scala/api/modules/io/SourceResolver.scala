@@ -1,7 +1,8 @@
 package xorg.scala.api.modules.io
 
 import org.bytedeco.javacpp.opencv_objdetect.CascadeClassifier
-import xorg.scala.api.modules.{ CascadeType, HaarCascadeLoader }
+import xorg.kzonix.scala.api.modules.CascadeType
+import xorg.scala.api.modules.HaarCascadeLoader
 
 /**
  * Created by LIMPID-GEEK

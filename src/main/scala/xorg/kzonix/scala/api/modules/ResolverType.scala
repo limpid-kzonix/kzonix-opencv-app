@@ -1,6 +1,6 @@
-package xorg.scala.api.modules
+package xorg.kzonix.scala.api.modules
 
-import xorg.scala.api.modules.ResolverType.ResolverType
+import xorg.kzonix.scala.api.modules.ResolverType.ResolverType
 
 /**
  * Created by LIMPID-GEEK

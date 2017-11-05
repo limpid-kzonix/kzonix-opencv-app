@@ -3,7 +3,7 @@ package xorg.scala.api.modules.cv.detection.utils
 import java.util.function.Supplier
 
 import org.bytedeco.javacpp.opencv_core.Mat
-import org.bytedeco.javacv.{Frame, OpenCVFrameConverter}
+import org.bytedeco.javacv.{ Frame, OpenCVFrameConverter }
 
 /**
  * Created by LIMPID-GEEK

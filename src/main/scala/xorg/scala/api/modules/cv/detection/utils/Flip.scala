@@ -10,7 +10,7 @@ import org.bytedeco.javacpp.opencv_imgproc
 object Flip {
 
   def horizontal(mat: Mat): Mat = {
-    flip(mat, mat,1)
+    flip(mat, mat, 1)
     mat
   }
 

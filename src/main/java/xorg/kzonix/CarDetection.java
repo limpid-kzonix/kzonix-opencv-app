@@ -1,4 +1,4 @@
-package xorg.app;
+package xorg.kzonix;
 
 
 import org.bytedeco.javacpp.Loader;

@@ -1,4 +1,4 @@
-package xorg.app;
+package xorg.kzonix;
 
 /**
  * Created by LIMPID-GEEK
