@@ -15,8 +15,8 @@ val platform = org.bytedeco.javacpp.Loader.getPlatform
 
 
 libraryDependencies ++= Seq (
-  "org.bytedeco.javacpp-presets" % "flandmark" % "1.07-1.3" classifier "",
-  "org.bytedeco.javacpp-presets" % "flandmark" % "1.07-1.3" classifier platform,
+  "org.bytedeco.javacpp-presets" % "flandmark" % "1.07-1.4.4" classifier "",
+  "org.bytedeco.javacpp-presets" % "flandmark" % "1.07-1.4.4" classifier platform,
   "org.scalatest" %% "scalatest" % "3.0.3" % Test,
   "net.imagej"                   % "ij"              % "1.49v",
   "junit" % "junit" % "4.12" % "test",
