@@ -24,7 +24,7 @@ libraryDependencies ++= Seq (
   "com.typesafe.akka" %% "akka-actor" % "2.6.15",
   "com.typesafe.akka" %% "akka-slf4j" % "2.6.15",
   "com.typesafe.akka" %% "akka-stream" % "2.6.15",
-  "com.typesafe.akka" %% "akka-stream-testkit" % "2.5.3"
+  "com.typesafe.akka" %% "akka-stream-testkit" % "2.6.15"
 )
 
 // set MaxPermHeapSize for ignore VIDEOIO exceprtion
