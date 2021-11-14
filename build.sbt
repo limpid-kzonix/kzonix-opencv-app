@@ -2,7 +2,7 @@ name := "kzonix-opencv-app"
 
 version := "1.0"
 
-scalaVersion := "2.13.6"
+scalaVersion := "2.13.7"
 
 
 // Platform classifier for native library dependencies
