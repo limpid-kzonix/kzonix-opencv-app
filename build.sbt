@@ -21,7 +21,7 @@ libraryDependencies ++= Seq (
   "net.imagej"                   % "ij"              % "1.53j",
   "junit" % "junit" % "4.13.2" % "test",
   "com.novocode" % "junit-interface" % "0.11" % "test",
-  "com.typesafe.akka" %% "akka-actor" % "2.6.18",
+  "com.typesafe.akka" %% "akka-actor" % "2.6.20",
   "com.typesafe.akka" %% "akka-slf4j" % "2.6.18",
   "com.typesafe.akka" %% "akka-stream" % "2.6.18",
   "com.typesafe.akka" %% "akka-stream-testkit" % "2.6.18"
