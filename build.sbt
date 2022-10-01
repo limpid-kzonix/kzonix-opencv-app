@@ -18,7 +18,7 @@ libraryDependencies ++= Seq (
   "org.bytedeco.javacpp-presets" % "flandmark" % "1.07-1.4.4" classifier "",
   "org.bytedeco.javacpp-presets" % "flandmark" % "1.07-1.4.4" classifier platform,
   "org.scalatest" %% "scalatest" % "3.2.11" % Test,
-  "net.imagej"                   % "ij"              % "1.53j",
+  "net.imagej"                   % "ij"              % "1.53t",
   "junit" % "junit" % "4.13.2" % "test",
   "com.novocode" % "junit-interface" % "0.11" % "test",
   "com.typesafe.akka" %% "akka-actor" % "2.6.20",
